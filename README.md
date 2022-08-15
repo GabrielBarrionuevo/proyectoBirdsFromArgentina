@@ -13,8 +13,11 @@ A corregir:
 Corregido: 
 +Ícono de hamburguesa sin funcionar (salvo en index)
 +Responsive en About y ContactUs usando bootstrap
-+Menu funcionar desde todas las páginas
-+Eliminar bootstrap localmente
++Menu funcional desde todas las páginas
++Eliminación de bootstrap localmente.
++Se ha configurado correctamente sass y bootstrap.
++Limpieza general del código, eliminando comentarios innecesarios, y código comentado sin usar.
++Utilizando git, se han mergeado las tres ramas creadas en la semana en el main principal.
 
 Agregar
 -Centrado de imágenes
