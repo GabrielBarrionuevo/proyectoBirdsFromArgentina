@@ -11,6 +11,8 @@ html {
     font-family: 'Roboto Slab', serif;
     /* Eliminamos scroll horizontal generado por bootstraps en aboutUs y ContactUs */
     overflow-x: hidden;
+    /* Agregamos un espacio desde el top para uqe al ingresar al sitio, el menu fijo no nos tape el contenido. */
+    scroll-padding-top: 50px;
 }
 #iconoMenu {
     display: none;
