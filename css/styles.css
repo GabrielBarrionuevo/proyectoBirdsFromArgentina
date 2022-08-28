@@ -267,7 +267,8 @@ main {
 
 /* SECTION PRINCIPAL */
 .areaPrincipal__titulo,
-.areaPrincipal__videos--titulo {
+.areaPrincipal__videos--titulo,
+.textoCentrado {
   box-shadow: 0 0 45px #3d3b8e;
   width: 150px;
   font-size: 3em;
@@ -279,7 +280,8 @@ main {
   text-align: center;
 }
 
-.areaPrincipal__titulo {
+.areaPrincipal__titulo,
+.textoCentrado {
   width: fit-content;
   margin: 20px;
   margin-top: 100px;
@@ -291,8 +293,9 @@ main {
   object-fit: fit;
 }
 
-#imagenCentradaManualmente {
-  object-position: 90%;
+.textoCentrado {
+  color: #3d3b8e;
+  font-size: 3em;
 }
 
 /* ================================ */
@@ -731,6 +734,23 @@ form {
   font-weight: bold;
   letter-spacing: 5px;
   margin: 0;
+}
+
+/* Texto sobre imagen */
+/* Agrego texto sobre las imagenes solamente en el index. De lo contrario me da la impresion de uqe todo el sitio esta sobrecargandoce. */
+.imagenContenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.textoCentrado {
+  background-color: rgba(249, 249, 249, 0.2);
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
 }
 
 /* Posicionamiento */

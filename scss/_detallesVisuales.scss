@@ -57,3 +57,20 @@
 		margin: 0;
 	}
 }
+
+/* Texto sobre imagen */
+/* Agrego texto sobre las imagenes solamente en el index. De lo contrario me da la impresion de uqe todo el sitio esta sobrecargandoce. */ 
+.imagenContenedor{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.textoCentrado {
+	background-color: rgba($color: $cultured, $alpha: .2);
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+}
