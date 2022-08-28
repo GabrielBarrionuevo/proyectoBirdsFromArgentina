@@ -1,6 +1,24 @@
-.tituloPrincipal:before {
+    /* BODY */
+    .tituloPrincipal:before {
     content: "Birds from Argentina";
 }
+    /* MENU */
+    .tituloInicio:before {
+        content: "Inicio";
+    }
+    .tituloCaracteristicas:before {
+        content: "Caracacteristicas";
+    }
+    .tituloCategorias:before {
+        content: "Categorias";
+    }
+    .tituloAbout:before {
+        content: "About Us";
+    }
+    .tituloContact:before {
+        content: "Contact Us";
+    }    
+
 /* ========================= */
 /* MEDIA QUERIES */
 /* ========================= */
@@ -70,5 +88,23 @@
 @media screen and (max-width: 340px){
     .tituloPrincipal:before {
     content: "BfArg";
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .tituloInicio:before {
+        content: "Inicio";
+    }
+    .tituloCaracteristicas:before {
+        content: "Carac ";
+    }
+    .tituloCategorias:before {
+        content: "Categ ";
+    }
+    .tituloAbout:before {
+        content: "About";
+    }
+    .tituloContact:before {
+        content: "Contact";
     }
 }
