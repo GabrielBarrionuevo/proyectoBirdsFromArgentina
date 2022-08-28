@@ -22,14 +22,13 @@
 /* ========================= */
 /* MEDIA QUERIES */
 /* ========================= */
-@media screen and (max-width: 650px){
+@media screen and (max-width: 680px){
     /* MENU */
     .divAbout {
-        /* No logro encontrar solución al inconveniente de que vuelva a ser row la imagen y el texto de about cuando la resolución es menor a 600px. */
         display: flex;
         flex-direction: row;
     }
-
+    
 //Terminar de liquidar bien detalles del menu responsive.
     .navbar-light 
     .navbar-brand {
@@ -108,3 +107,16 @@
         content: "Contact";
     }
 }
+
+@media screen and (max-width: 423px){
+    .navbar-toggler-icon {
+    width: 30px;
+    height: 30px;
+    }
+}
+@media screen and (max-width: 340px){
+    .tituloPrincipal:before {
+    content: "BfArg";
+    }
+}
+
