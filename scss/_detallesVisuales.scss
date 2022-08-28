@@ -17,3 +17,43 @@
     box-shadow: 0 0 25px $china-pink;
 }
 
+//Footer
+.footer {
+	z-index: 0;
+}
+.stroke {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #111827;
+	color: transparent;
+}
+.halftone {
+	position: relative;
+	&:after {
+		content: "Gabo...";
+		font-size: 1em;
+		letter-spacing: 6px;
+		left: calc(50% + 6px);
+		position: absolute;
+		top: calc(50% + 6px);
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		-webkit-text-stroke-width: 0;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+}
+.halftone-color {
+	&:after {
+		z-index: -1;
+		background-color: #e072a4ff;
+	}
+}
+.hechoPor {
+	p {
+		font-size: 2em;
+		font-weight: bold;
+		letter-spacing: 5px;
+		margin: 0;
+	}
+}
