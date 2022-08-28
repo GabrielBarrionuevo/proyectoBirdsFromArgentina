@@ -533,6 +533,53 @@ footer {
 /* ========================= */
 /* MEDIA QUERIES */
 /* ========================= */
+/* ================================================================ */
+/* ================================================================ */
+@media screen and (max-width: 1200px) {
+  .tituloInicio:before {
+    content: "Inicio";
+  }
+  .tituloCaracteristicas:before {
+    content: "Carac ";
+  }
+  .tituloCategorias:before {
+    content: "Categ ";
+  }
+  .tituloAbout:before {
+    content: "About";
+  }
+  .tituloContact:before {
+    content: "Contact";
+  }
+}
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
+@media screen and (max-width: 952px) {
+  .areaEncabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .grid-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .enlacesRedesSociales__items--imagen {
+    width: 70px;
+  }
+}
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
 @media screen and (max-width: 680px) {
   /* MENU */
   .divAbout {
@@ -571,59 +618,27 @@ footer {
     width: 60px;
   }
 }
-@media screen and (max-width: 952px) {
-  .areaEncabezado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    height: fit-content;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .grid-contenedor {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-  .enlacesRedesSociales__items--imagen {
-    width: 70px;
-  }
-}
-@media screen and (max-width: 340px) {
-  .tituloPrincipal:before {
-    content: "BfArg";
-  }
-}
-@media screen and (max-width: 1200px) {
-  .tituloInicio:before {
-    content: "Inicio";
-  }
-  .tituloCaracteristicas:before {
-    content: "Carac ";
-  }
-  .tituloCategorias:before {
-    content: "Categ ";
-  }
-  .tituloAbout:before {
-    content: "About";
-  }
-  .tituloContact:before {
-    content: "Contact";
-  }
-}
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
 @media screen and (max-width: 423px) {
   .navbar-toggler-icon {
     width: 30px;
     height: 30px;
   }
 }
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
+/* ================================================================ */
 @media screen and (max-width: 340px) {
   .tituloPrincipal:before {
     content: "BfArg";
   }
 }
+/* ================================================================ */
+/* ================================================================ */
 /* ***************** */
 /* Paleta de colores */
 /* ***************** */
