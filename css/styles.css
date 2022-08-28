@@ -17,7 +17,8 @@ html {
   background-color: hsla(333deg, 64%, 66%, 0.1);
   font-family: "Lobster", cursive;
   font-family: "Roboto Slab", serif;
-  /* Resetear valores antes de empezar */
+  /* Eliminamos scroll horizontal generado por bootstraps en aboutUs y ContactUs */
+  overflow-x: hidden;
 }
 
 #iconoMenu {
@@ -499,6 +500,10 @@ footer {
   box-shadow: 0 0 55px #b0e298;
 }
 
+.tituloPrincipal:before {
+  content: "Birds from Argentina";
+}
+
 /* ========================= */
 /* MEDIA QUERIES */
 /* ========================= */
@@ -559,6 +564,11 @@ footer {
   }
   .enlacesRedesSociales__items--imagen {
     width: 70px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .tituloPrincipal:before {
+    content: "BfArg";
   }
 }
 /* ***************** */

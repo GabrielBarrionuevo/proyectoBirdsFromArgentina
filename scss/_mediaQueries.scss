@@ -1,3 +1,6 @@
+.tituloPrincipal:before {
+    content: "Birds from Argentina";
+}
 /* ========================= */
 /* MEDIA QUERIES */
 /* ========================= */
@@ -62,5 +65,10 @@
     }
     .enlacesRedesSociales__items--imagen {
         width: 70px;
+    }
+}
+@media screen and (max-width: 340px){
+    .tituloPrincipal:before {
+    content: "BfArg";
     }
 }

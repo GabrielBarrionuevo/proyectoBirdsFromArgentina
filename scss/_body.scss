@@ -9,7 +9,8 @@ html {
     background-color: hsla(333, 64%, 66%, 0.1);
     font-family: 'Lobster', cursive;
     font-family: 'Roboto Slab', serif;
-    /* Resetear valores antes de empezar */
+    /* Eliminamos scroll horizontal generado por bootstraps en aboutUs y ContactUs */
+    overflow-x: hidden;
 }
 #iconoMenu {
     display: none;
