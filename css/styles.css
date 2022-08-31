@@ -668,7 +668,7 @@ body {
 
 .divAbout,
 .divContact {
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .areaPrincipal__videos {
