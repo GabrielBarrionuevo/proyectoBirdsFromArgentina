@@ -497,16 +497,19 @@ footer {
   color: #6883ba;
 }
 
-.hechoPor span {
-  cursor: pointer;
-  filter: blur(3px);
-  transition: 0.2s;
+/* FOOTER */
+.hechoPor {
+  vertical-align: middle;
+  color: #f9f9f9;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
 }
-.hechoPor span:hover {
-  filter: blur(0px);
-  transition: 0s;
-  border: 1px solid #f9f9f9;
-  box-shadow: 0 0 55px #b0e298;
+
+.hechoPor:hover {
+  display: inline-block;
+  animation: bounce;
+  animation-duration: 2s;
 }
 
 /* BODY */
