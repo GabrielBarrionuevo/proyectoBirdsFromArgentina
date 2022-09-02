@@ -752,11 +752,12 @@ form {
 }
 
 .textoCentrado {
+  mix-blend-mode: hard-light;
   background-color: rgba(249, 249, 249, 0.2);
   position: absolute;
   top: 20%;
   left: 45%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -45%);
   z-index: 3;
 }
 
